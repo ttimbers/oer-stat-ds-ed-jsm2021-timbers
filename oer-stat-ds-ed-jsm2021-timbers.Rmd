@@ -1,0 +1,97 @@
+---
+title: "Teaching data science authentically"
+subtitle: "using open source educational resources"  
+author: 
+  - "Tiffany A. Timbers"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+
+# Why use Open Educational Resources in Teaching?
+
+(in general)
+
+---
+
+# Why use Open Educational Resources in Teaching?
+
+(in data science specifically)
+
+---
+
+# Role of Open Source in Data Science
+
+---
+
+# Using Data Science Open Source tools in Teaching
+
+Practice what you preach!
+
+---
+
+# Example of OER's built using Data Science Open Source tools
+
+1. [*Data Science: A First Introduction*](https://ubc-dsci.github.io/introduction-to-datascience/) - an open textbook aimed at undergraduates students taking their first course in data science
+
+2. [Syllabi, lecture notes, labs and lecture videos from courses for a professional Master's in Data Science program](https://github.com/UBC-MDS/public)
+
+3. [Key Capabilities in Data Science online courses](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) - Interactive online learning modules aimed at mid-career learners
+
+---
+
+# *Data Science: A First Introduction*
+
+---
+
+# UBC MDS syllabi, lecture notes, labs & lecture videos
+
+---
+
+# Key Capabilities in Data Science online courses
+
+---
+
+# Lessons learned from Building Data Science OER's
+
+---
+
+# Lessons learned from Maintaining Data Science OER's
+
+---
+
+# Impact of OER's
+
+---
+
+# Attribution
+
+---
+
+# Resources
+
+--- 
+
+# Thanks
+
+---
