@@ -62,21 +62,54 @@ Practice what you preach!
 
 # *Data Science: A First Introduction*
 
+- aimed at first year undergraduates, from any discipline, no pre-req knowledge needed
+- created via R + `bookdown`
+- openly available HTML version on the web (always)
+- partnering with CRC Press to publish a print version (paid)
+
 ---
 
 # UBC MDS syllabi, lecture notes, labs & lecture videos
+
+- course resources from a Master of Data Science program
+- program uses OER's from others, as well as creates its own
+- syllabi and course notes created via Jupyter, R Markdown & hosted on GitHub
+- videos of some courses hosted on YouTube
 
 ---
 
 # Key Capabilities in Data Science online courses
 
+- suite of online courses, and a certificate program, aimed at mid-career learners in British Columbia, Canada, but open to anyone
+- paid version of the courses includes a course facilitator, office hours, graded assignments and quizzes
+- course notes, videos and knowledge checks are openly available 
+- open content created via Ines Montani's open course framework, whose front-end is powered by Gatsby and Reveal.js and back-end code execution is powered by BinderHub
+
+#### Open course content:
+
+- [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca)
+- [Data Visualization](https://viz-learn.mds.ubc.ca/)
+- [Introduction to Machine Learning](https://ml-learn.mds.ubc.ca/en)
+
 ---
 
 # Lessons learned from Building Data Science OER's
 
+- don't do it alone
+
+---
+
+# Lessons learned from Sharing Data Science OER's
+
+- don't be afraid to share
+- use a license
+
 ---
 
 # Lessons learned from Maintaining Data Science OER's
+
+- maintenance is needed to keep material current
+- OER's which need interactive computation require money or infrastructure to share
 
 ---
 
