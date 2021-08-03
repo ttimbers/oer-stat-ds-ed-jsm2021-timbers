@@ -4,7 +4,7 @@
     <title>Teaching data science authentically</title>
     <meta charset="utf-8" />
     <meta name="author" content="Tiffany A. Timbers" />
-    <meta name="date" content="2021-07-23" />
+    <meta name="date" content="2021-08-03" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 # Teaching data science authentically
 ## using open source educational resources
 ### Tiffany A. Timbers
-### 2021-07-23
+### 2021-08-03
 
 ---
 
@@ -24,30 +24,42 @@ class: center, middle, inverse, title-slide
 
 
 
+class: middle
 
-# Why use Open Educational Resources in Teaching?
+### Why create and use open educational resources in general?
 
-(in general)
+- cost savings for learners 💸
 
----
+- quick iteration and extension on materials for instructors ♻️ + 🏗️
 
-# Why use Open Educational Resources in Teaching?
+- and raising the quality of the resources by facilitating collaboration 👥👥👥
 
-(in data science specifically)
-
----
-
-# Role of Open Source in Data Science
+- your teaching materials (and pedagogies) become more discoverable 🔍
 
 ---
 
-# Using Data Science Open Source tools in Teaching
+class: middle
 
-Practice what you preach!
+### Why create and use open educational resources in data science?
+
+***All the reasons I just stated, and...***
+
+
+
+***... it mirrors the practices, tools and workflows used when practising data science***.
 
 ---
 
-# Example of OER's built using Data Science Open Source tools
+class: center, middle
+
+## Practice what you preach!
+
+---
+
+class: middle
+
+### Example of OER's we have built using Data Science Open Source tools
+
 
 1. [*Data Science: A First Introduction*](https://ubc-dsci.github.io/introduction-to-datascience/) - an open textbook aimed at undergraduates students taking their first course in data science
 
@@ -57,72 +69,190 @@ Practice what you preach!
 
 ---
 
-# *Data Science: A First Introduction*
+### *Data Science: A First Introduction*
 
-- aimed at first year undergraduates, from any discipline, no pre-req knowledge needed
-- created via R + `bookdown`
-- openly available HTML version on the web (always)
-- partnering with CRC Press to publish a print version (paid)
+Aimed at first year undergraduates, from any discipline.
 
----
+.left-column[
 
-# UBC MDS syllabi, lecture notes, labs &amp; lecture videos
+&lt;img src="img/dsci-100-team.png" width="70%" /&gt;
 
-- course resources from a Master of Data Science program
-- program uses OER's from others, as well as creates its own
-- syllabi and course notes created via Jupyter, R Markdown &amp; hosted on GitHub
-- videos of some courses hosted on YouTube
+]
 
----
+.right-column[
 
-# Key Capabilities in Data Science online courses
+![](img/ds-first-intro.png)&lt;!-- --&gt;
 
-- suite of online courses, and a certificate program, aimed at mid-career learners in British Columbia, Canada, but open to anyone
-- paid version of the courses includes a course facilitator, office hours, graded assignments and quizzes
-- course notes, videos and knowledge checks are openly available 
-- open content created via Ines Montani's open course framework, whose front-end is powered by Gatsby and Reveal.js and back-end code execution is powered by BinderHub
+]
 
-#### Open course content:
-
-- [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca)
-- [Data Visualization](https://viz-learn.mds.ubc.ca/)
-- [Introduction to Machine Learning](https://ml-learn.mds.ubc.ca/en)
+Link: [ubc-dsci.github.io/introduction-to-datascience](https://ubc-dsci.github.io/introduction-to-datascience/)
 
 ---
 
-# Lessons learned from Building Data Science OER's
+### *Data Science: A First Introduction*
+
+.pull-left[
+- Created via R + `bookdown` R package.
+
+- Source code is available on GitHub: [github.com/UBC-DSCI/introduction-to-datascience](https://github.com/UBC-DSCI/introduction-to-datascience)
+]
+
+.pull-right[
+&lt;img src="img/ds-first-intro-source.png" width="100%" /&gt;
+]
+---
+
+### *Data Science: A First Introduction*
+
+.pull-left[
+- Book source and rendered HTML version openly licensed under [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) and will remain that way indefinitely.
+
+- Partnering with CRC Press to publish and sell a print version. 
+]
+
+.pull-right[
+&lt;img src="img/ds-first-intro-license.png" width="100%" /&gt;
+]
+
+---
+
+### UBC MDS syllabi, lecture notes, labs &amp; lecture videos
+
+Course resources from the UBC Professional Master of Data Science program.
+
+.pull-left[
+
+##### Past and present core MDS teaching team members
+
+- Tomas Beuzen
+- Vincenzo Coia
+- Giulio Valentino Dalla Riva
+- Mike Gelbart
+- Varada Kolhatkar
+- Rodolfo Lourenzutti
+- Firas Moosvi
+- Joel Ostblom
+- Alexi Rodríguez-Arelis
+- Tiffany Timbers
+
+]
+
+.pull-right[
+
+&lt;img src="img/mds-hex.png" width="75%" /&gt;
+
+]
+
+---
+
+### UBC MDS syllabi, lecture notes, labs &amp; lecture videos
+
+.pull-left[
+- Course resources from a Master of Data Science program: [github.com/UBC-MDS/public](https://github.com/UBC-MDS/public)
+
+- Program uses OER's from others, as well as creates its own
+
+- Syllabi and course notes created via Jupyter, R Markdown &amp; hosted on GitHub
+
+- Videos of some courses hosted on YouTube
+]
+
+.pull-right[
+
+![](img/mds-oers.png)&lt;!-- --&gt;
+
+]
+
+*Course instructors choose to share and distribute their resources using one of the available Creative Commons licenses.*
+
+---
+
+### Key Capabilities in Data Science online courses
+
+Suite of online courses, and a certificate program, aimed at mid-career learners in British Columbia, Canada, but open to anyone.
+
+UBC certificate program: https://extendedlearning.ubc.ca/programs/key-capabilities-data-science
+
+.pull-left[
+
+- Course notes, videos and knowledge checks are openly available.
+
+- Paid version of the courses includes a course facilitator, office hours, graded assignments and quizzes.
+
+]
+
+.pull-right[
+
+![](img/exp-data-viz.png)&lt;!-- --&gt;
+
+]
+
+---
+
+### Key Capabilities in Data Science online courses
+
+Open content created via Ines Montani's open course framework, 
+whose front-end is powered by Gatsby and Reveal.js 
+and back-end code execution is powered by BinderHub.
+
+.pull-left[
+
+![](img/joel-video.png)&lt;!-- --&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="img/code-exercise.png" width="75%" /&gt;
+
+]
+
+Course starter pack: [github.com/ines/course-starter-python](https://github.com/ines/course-starter-python)
+
+---
+
+class: middle
+
+### Key Capabilities in Data Science online courses
+
+| Course open content | Course source | 
+|----|---|
+| [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca) | [github.com/UBC-MDS/programming-in-python-for-data-science](https://github.com/UBC-MDS/programming-in-python-for-data-science)|
+| [Data Visualization](https://viz-learn.mds.ubc.ca/) | [github.com/UBC-MDS/exploratory-data-viz](https://github.com/UBC-MDS/exploratory-data-viz) |
+| [Introduction to Machine Learning](https://ml-learn.mds.ubc.ca/en) | [github.com/UBC-MDS/introduction-machine-learning](https://github.com/UBC-MDS/introduction-machine-learning) |
+
+*All content and source is openly licensed under Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/https://creativecommons.org/licenses/by/4.0/)).*
+
+---
+
+### Lessons learned from building, sharing and maintaining data science OER's
 
 - don't do it alone
 
----
-
-# Lessons learned from Sharing Data Science OER's
-
 - don't be afraid to share
+
 - use a license
 
----
-
-# Lessons learned from Maintaining Data Science OER's
-
 - maintenance is needed to keep material current
+
 - OER's which need interactive computation require money or infrastructure to share
 
 ---
 
-# Impact of OER's
+### Impact of OER's
+
 
 ---
 
-# Attribution
+### Attribution
 
 ---
 
-# Resources
+### Resources
 
 --- 
 
-# Thanks
+### Thanks
 
 ---
     </textarea>
