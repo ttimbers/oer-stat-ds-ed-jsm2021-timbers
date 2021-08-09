@@ -358,4 +358,11 @@ class: middle
 
 class: center, middle
 
+
 # Thank-you!
+
+Twitter: [@TiffanyTimbers](https://twitter.com/TiffanyTimbers)
+
+email: [tiffany.timbers@stat.ubc.ca](mailto:tiffany.timbers@stat.ubc.ca)
+
+slides: [bit.ly/timbers-jsm-21](bit.ly/timbers-jsm-21)
